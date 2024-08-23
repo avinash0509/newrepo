@@ -1,0 +1,77 @@
+.app-title {
+  width: 80%;
+  margin: 10px auto;
+  padding: 5px;
+  box-shadow: 0px 0px 15px 3px lightcoral;
+}
+
+.app-title h1 {
+  text-align: center;
+  color: rgb(224, 62, 62);
+}
+
+/* Add Food component styling*/
+
+.add-food {
+  width: 80%;
+  margin: 10px auto;
+  padding: 5px;
+  box-shadow: 0px 0px 8px 2px lightgray;
+  text-align: center;
+}
+
+.add-food input {
+  width: 80%;
+  padding: 3px;
+  color: rgb(204, 59, 59);
+  outline: none;
+  border: 1px solid rgb(204, 59, 59);
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.add-food input:focus{
+  background-color: rgba(0, 0, 0, 0.853);
+  outline: rgb(214, 81, 81);
+}
+
+/*Foodlist component styling*/
+.food-list{
+  width: 80%;
+  max-height: 200px;
+  overflow-y: auto;
+  margin: 20px auto;
+  padding: 10px;
+  box-shadow: 0px 0px 15px 5px rgb(225, 144, 144);
+}
+
+/* Food Component Styling*/
+.food{
+  border-bottom: 2px solid rgb(209, 73, 73);
+  display: flex;
+  justify-content: space-between;
+}
+
+.food strong{
+  display: inline-block;
+  
+}
+
+.food button{
+  display: inline-block;
+
+  border: none;
+  background-color: brown;
+  color: white;
+  padding: 10px;
+}
+
+.food :hover{
+  background-color: lightcoral;
+  cursor: pointer;
+}
+
+.food button:hover{
+  background-color: white;
+  color: brown;
+}
